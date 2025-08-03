@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Jardiel_Vd</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (para iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" xintegrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Hoja de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">&lt;Jardiel_Vd/&gt;</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Inicio</a></li>
+                    <li><a href="#about" class="nav__link">Sobre mí</a></li>
+                    <li><a href="#technologies" class="nav__link">Tecnologías</a></li>
+                    <li><a href="#projects" class="nav__link">Proyectos</a></li>
+                    <li><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- ==================== INICIO (HERO) ==================== -->
+        <section class="hero section" id="home">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <span class="hero__greeting">Hola, mi nombre es</span>
+                    <h1 class="hero__name">Jardiel Vega</h1> <br>
+                    <h3 class="hero__education">Estudiante de Ingeniería en Ciencias Informáticas</h3>
+                    <p class="hero__description">
+                        Apasionado por el Desarrollo Web, con un profundo interés en crear experiencias de usuario interactivas y estéticamente agradables.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="button">Linkedin</a>
+                        <a href="#contact" class="button button--ghost">Contáctame</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                     <!-- Asegúrate de tener una imagen tuya en la ruta 'assets/avatar.png' -->
+                    <img src="Avatar.jpg" alt="[Imagen de tu avatar]" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SOBRE MÍ ==================== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__content animate-on-scroll">
+                    <h2 class="section__title"><span>01.</span> Sobre Mí</h2>
+                    <p class="about__description">
+                        ¡Hola! Soy un estudiante de Ingeniería en Ciencias Informáticas con una gran fascinación por el mundo del desarrollo de software, especialmente en el área del frontend. Me encanta dar vida a diseños y convertirlos en aplicaciones web funcionales y atractivas.
+                    </p>
+                    <p class="about__description">
+                        Tengo una base sólida en lenguajes como <strong>C++, Java y Python</strong>, pero mi verdadera pasión se encendió cuando descubrí la web. Disfruto construyendo interfaces con <strong>HTML, CSS y JavaScript</strong>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TECNOLOGÍAS ==================== -->
+        <section class="technologies section" id="technologies">
+            <div class="technologies__container container">
+                <h2 class="section__title animate-on-scroll"><span>02.</span> Tecnologías</h2>
+                <div class="technologies__grid">
+                    <!-- Cada tecnología tiene una animación que se activa con el scroll -->
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-js-square"></i><span>JavaScript</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-react"></i><span>React</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-solid fa-c"></i><span>C++</span></div>
+                    <div class="tech__card animate-on-scroll"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PROYECTOS ==================== -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title animate-on-scroll"><span>03.</span> Proyectos</h2>
+            <div class="projects__container container grid">
+                <!-- Proyecto 1 -->
+                <article class="project__card animate-on-scroll">
+                    <div class="project__image">
+                        <img src="Proyecto1.jpg" alt="[Imagen del Proyecto 1]" class="project__img">
+                    </div>
+                    <div class="project__content">
+                        <span class="project__subtitle">App Web</span>
+                        <h3 class="project__title">Evolución del diseño Web</h3>
+                        <p class="project__description">
+                            Una aplicación web simple para mostrar curiosidades sobre la evolución del diseño web en la historia
+                        </p>
+                        <div class="project__technologies">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Proyecto 2 -->
+                <article class="project__card animate-on-scroll">
+                    <div class="project__image">
+                        <img src="Proyecto2.jpg" alt="[Imagen del Proyecto 2]" class="project__img">
+                    </div>
+                    <div class="project__content">
+                        <span class="project__subtitle">ViajeVR</span>
+                        <h3 class="project__title">Web sobre la historia de la VR</h3>
+                        <p class="project__description">
+                            Un proyecto para el Forum Nacional de Historia. 
+                        </p>
+                        <div class="project__technologies">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Proyecto 3 -->
+                
+                <article class="project__card animate-on-scroll">
+                    <div class="project__image">
+                        <img src="Proyecto3.jpg" alt="[Imagen del Proyecto 3]" class="project__img">
+                    </div>
+                    <div class="project__content">
+                        <span class="project__subtitle">Portafolio Personal</span>
+                        <h3 class="project__title">Este mismo Portafolio</h3>
+                        <p class="project__description">
+                            Un proyecto para aplicar mis conocimientos en HTML, CSS y JS, y crear una marca personal con un diseño moderno.
+                        </p>
+                        <div class="project__technologies">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <!-- ==================== CONTACTO ==================== -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container text-center animate-on-scroll">
+                <h2 class="section__title"><span>04.</span> Contacto</h2>
+                <h3 class="contact__title">Ponte en Contacto</h3>
+                <p class="contact__description">
+                    Actualmente estoy abierto a nuevas oportunidades. Si tienes alguna pregunta, una propuesta o simplemente quieres saludar, ¡mi bandeja de entrada siempre está abierta!
+                </p>
+                <a href="jardielvega7@gmail.com" class="button">¡Di Hola!</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__socials">
+                <a href="https://github.com/JardielVega" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:jardielvega7@gmail.com" class="footer__social-link">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <p class="footer__copy">
+                &copy; 2025 Jardiel Vega. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
