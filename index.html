@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio profesional de Jardiel Vega. Desarrollador frontend especializado en React, JavaScript y diseño responsive. Explora mis proyectos y contáctame para colaboraciones.">
-    <meta name="keywords" content="desarrollador web, portafolio programador, frontend, JavaScript, React, CSS, HTML, proyectos web, Perú">
+    <meta name="description" content="Portafolio profesional de Jardiel Vega. Desarrollador frontend especializado en React, JavaScript y diseño responsive. Estudiante de Ingeniería en Ciencias Informáticas con proyectos web modernos.">
+    <meta name="keywords" content="Jardiel Vega, desarrollador web, portafolio programador, frontend developer, JavaScript, React, CSS, HTML, proyectos web, Perú, ingeniería informática">
+    <meta name="robots" content="index, follow">
     <meta property="og:title" content="Jardiel Vega | Portafolio Frontend">
     <meta property="og:description" content="Desarrollador web especializado en tecnologías modernas. Mira mis proyectos y experiencia.">
     <meta property="og:image" content="https://jardielvega.me/images/preview-social.jpg">
@@ -43,7 +44,30 @@
 
   gtag('config', 'G-6JS0ELGT0V');
 </script>
-    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jardiel Vega",
+        "jobTitle": "Desarrollador Frontend",
+        "description": "Estudiante de Ingeniería en Ciencias Informáticas especializado en desarrollo web frontend",
+        "url": "https://jardielvega.me",
+        "image": "https://jardielvega.me/Avatar.jpg",
+        "sameAs": [
+            "https://github.com/JardielVega",
+            "https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330",
+            "https://www.instagram.com/jardiel_vd"
+        ],
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Java", "Python", "C++", "Git"],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Universidad - Ingeniería en Ciencias Informáticas"
+        },
+        "email": "jardielvega7@gmail.com",
+        "nationality": "Perú"
+    }
+    </script>
 </head>
     
 <body>
@@ -81,13 +105,20 @@
                         Apasionado por el Desarrollo Web, con un profundo interés en crear experiencias de usuario interactivas y estéticamente agradables.
                     </p>
                     <div class="hero__buttons">
-                        <a href="https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="button">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330" 
+                           class="button" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Ver perfil de LinkedIn de Jardiel Vega (se abre en nueva ventana)">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                            LinkedIn
+                        </a>
                         <a href="#contact" class="button button--ghost">Contáctame</a>
                     </div>
                 </div>
                 <div class="hero__image">
                      <!-- Asegúrate de tener una imagen tuya en la ruta 'assets/avatar.png' -->
-                    <img src="Avatar.jpg" alt="[Imagen de tu avatar]" class="hero__img">
+                    <img src="Avatar.jpg" alt="Foto profesional de Jardiel Vega, desarrollador frontend" class="hero__img">
                 </div>
             </div>
         </section>
@@ -132,7 +163,7 @@
                 <!-- Proyecto 1 -->
                 <article class="project__card animate-on-scroll">
                     <div class="project__image">
-                        <img src="Proyecto1.jpg" alt="[Imagen del Proyecto 1]" class="project__img" loading="lazy">
+                        <img src="Proyecto1.jpg" alt="Captura de pantalla del proyecto Evolución del diseño Web" class="project__img" loading="lazy">
                     </div>
                     <div class="project__content">
                         <span class="project__subtitle">App Web</span>
@@ -152,7 +183,7 @@
                 <!-- Proyecto 2 -->
                 <article class="project__card animate-on-scroll">
                     <div class="project__image">
-                        <img src="Proyecto2.jpg" alt="[Imagen del Proyecto 2]" class="project__img" loading="lazy">
+                        <img src="Proyecto2.jpg" alt="Captura de pantalla del proyecto ViajeVR sobre realidad virtual" class="project__img" loading="lazy">
                     </div>
                     <div class="project__content">
                         <span class="project__subtitle">ViajeVR</span>
@@ -174,7 +205,7 @@
                 
                 <article class="project__card animate-on-scroll">
                     <div class="project__image">
-                        <img src="Proyecto3.jpg" alt="[Imagen del Proyecto 3]" class="project__img" loading="lazy">
+                        <img src="Proyecto3.jpg" alt="Captura de pantalla de este portafolio personal" class="project__img" loading="lazy">
                     </div>
                     <div class="project__content">
                         <span class="project__subtitle">Portafolio Personal</span>
@@ -200,10 +231,10 @@
             <div class="contact__container container text-center animate-on-scroll">
                 <h2 class="section__title"><span>04.</span> Contacto</h2>
                 <h3 class="contact__title">Ponte en Contacto</h3>
-                <p class="contact__description">
+                <p class="contact__description ">
                     Actualmente estoy abierto a nuevas oportunidades. Si tienes alguna pregunta, una propuesta o simplemente quieres saludar, ¡mi bandeja de entrada siempre está abierta!
                 </p>
-                <a href="mailto:jardielvega7@gmail.com" class="button">¡Di Hola!</a>
+                <a href="mailto:jardielvega7@gmail.com" class="button"> <i class="fa-solid fa-envelope" aria-hidden="true"></i>¡Di Hola!</a>
             </div>
         </section>
     </main>
@@ -235,4 +266,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
