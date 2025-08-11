@@ -8,30 +8,25 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://jardielvega.me/index.html</loc>
-        <lastmod>2025-08-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
     
     <!-- Secciones del portafolio -->
     <url>
-        <loc>https://jardielvega.me/index.html#about</loc>
+        <loc>https://jardielvega.me/#about</loc>
         <lastmod>2025-08-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://jardielvega.me/index.html#technologies</loc>
+        <loc>https://jardielvega.me/#technologies</loc>
         <lastmod>2025-08-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://jardielvega.me/index.html#projects</loc>
+        <loc>https://jardielvega.me/#projects</loc>
         <lastmod>2025-08-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://jardielvega.me/index.html#contact</loc>
+        <loc>https://jardielvega.me/#contact</loc>
         <lastmod>2025-08-11</lastmod>
         <priority>0.8</priority>
     </url>
