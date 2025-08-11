@@ -1,53 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Páginas principales -->
-    <url>
-        <loc>https://jardielvega.me/</loc>
-        <lastmod>2025-08-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-    
-    <!-- Secciones del portafolio -->
-    <url>
-        <loc>https://jardielvega.me/#about</loc>
-        <lastmod>2025-08-11</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://jardielvega.me/#technologies</loc>
-        <lastmod>2025-08-11</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://jardielvega.me/#projects</loc>
-        <lastmod>2025-08-11</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://jardielvega.me/#contact</loc>
-        <lastmod>2025-08-11</lastmod>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Nuevas páginas del blog -->
-    <url>
-        <loc>https://jardielvega.me/blog.html</loc>
-        <lastmod>2025-08-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://jardielvega.me/articuloGPT5.html</loc>
-        <lastmod>2025-08-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://jardielvega.me/articuloProductividad.html</loc>
-        <lastmod>2025-08-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- ========== PÁGINAS PRINCIPALES ========== -->
+  <url>
+    <loc>https://jardielvega.me/</loc>
+    <lastmod>2025-08-11</lastmod> <!-- Fecha de hoy -->
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- ========== SECCIÓN BLOG ========== -->
+  <url>
+    <loc>https://jardielvega.me/blog</loc>
+    <lastmod>2025-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>  
+  
+  <!-- ========== ARTÍCULOS DEL BLOG ========== -->
+  <url>
+    <loc>https://jardielvega.me/articuloGPT5.html</loc>
+    <lastmod>2025-08-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://jardielvega.me/articuloProductividad.html</loc>
+    <lastmod>2025-08-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
