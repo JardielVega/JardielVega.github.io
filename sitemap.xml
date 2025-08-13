@@ -12,20 +12,20 @@
   <!-- ========== SECCIÓN BLOG ========== -->
   <url>
     <loc>https://jardielvega.me/blog</loc>
-    <lastmod>2025-08-12</lastmod>
+    <lastmod>2025-08-13</lastmod>
     <priority>0.8</priority>
   </url>  
   
   <!-- ========== ARTÍCULOS DEL BLOG ========== -->
   <url>
     <loc>https://jardielvega.me/articuloGPT5.html</loc>
-    <lastmod>2025-08-12</lastmod>
+    <lastmod>2025-08-13</lastmod>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://jardielvega.me/articuloProductividad.html</loc>
-    <lastmod>2025-08-12</lastmod>
+    <lastmod>2025-08-13</lastmod>
     <priority>0.7</priority>
   </url>
 
