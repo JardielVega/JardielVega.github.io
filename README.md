@@ -1,1 +1,0 @@
-# JardielVega.github.io
