@@ -1,0 +1,17 @@
+/* EQUIPO */
+Autor: Jardiel Vega
+Sitio web: https://jardielvega.me
+Contacto: jardielvega7@gmail.com
+GitHub: https://github.com/JardielVega
+LinkedIn: https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330
+Ubicación: La Habana, Cuba
+
+/* AGRADECIMIENTOS */
+Nombre: Universidad de las Ciencias Informáticas (UCI)
+Sitio web: https://www.uci.cu
+
+/* SITIO */
+Última actualización: 2025/09/11
+Estándares: HTML5, CSS3, JavaScript
+Componentes: Bootstrap 5, Font Awesome, AOS
+Software: Visual Studio Code, Git, Adobe XD

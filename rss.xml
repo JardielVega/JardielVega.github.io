@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog de Jardiel Vega</title>
+    <link>https://jardielvega.me/blog.html</link>
+    <description>Blog especializado sobre desarrollo web, tecnologías frontend, IA y productividad para programadores</description>
+    <language>es</language>
+    <lastBuildDate>Sat, 11 Sep 2025 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://jardielvega.me/rss.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://jardielvega.me/Avatar.jpg</url>
+      <title>Blog de Jardiel Vega</title>
+      <link>https://jardielvega.me/blog.html</link>
+    </image>
+    <copyright>Copyright 2025 Jardiel Vega</copyright>
+    <category>Desarrollo Web</category>
+    <category>Programación</category>
+    <category>Tecnología</category>
+    
+    <item>
+      <title>ChatGPT-5: ¿Qué trae de nuevo la próxima generación de IA?</title>
+      <link>https://jardielvega.me/articuloGPT5.html</link>
+      <description>Conoce las novedades de ChatGPT-5, el futuro de la inteligencia artificial conversacional. Análisis detallado de sus características y capacidades.</description>
+      <author>jardielvega7@gmail.com (Jardiel Vega)</author>
+      <pubDate>Mon, 09 Aug 2025 10:30:00 GMT</pubDate>
+      <guid>https://jardielvega.me/articuloGPT5.html</guid>
+      <category>Inteligencia Artificial</category>
+      <category>Tecnología</category>
+    </item>
+    
+    <item>
+      <title>Herramientas de productividad para programadores</title>
+      <link>https://jardielvega.me/articuloProductividad.html</link>
+      <description>Descubre las mejores herramientas de productividad para programadores y creadores de contenido. Optimiza tu flujo de trabajo y aumenta tu eficiencia con software especializado.</description>
+      <author>jardielvega7@gmail.com (Jardiel Vega)</author>
+      <pubDate>Sat, 07 Aug 2025 09:15:00 GMT</pubDate>
+      <guid>https://jardielvega.me/articuloProductividad.html</guid>
+      <category>Productividad</category>
+      <category>Desarrollo</category>
+    </item>
+  </channel>
+</rss>

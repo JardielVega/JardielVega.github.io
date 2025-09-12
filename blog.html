@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Desarrollo Web e IA | Jardiel Vega | Artículos y Tutoriales</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Blog especializado de Jardiel Vega sobre desarrollo web, tecnologías frontend, IA y productividad. Artículos técnicos y consejos para programadores y profesionales del sector tecnológico.">
+    <meta name="keywords" content="blog desarrollo web, frontend, JavaScript, React, CSS, HTML, Jardiel Vega, IA, inteligencia artificial, productividad programadores">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Jardiel Vega">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="language" content="es">
+    <meta name="geo.region" content="CU">
+    <meta name="revisit-after" content="3 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jardielvega.me/blog">
+    <meta property="og:title" content="Blog | Jardiel Vega">
+    <meta property="og:description" content="Blog personal sobre desarrollo web, tecnologías y programación">
+    <meta property="og:image" content="https://jardielvega.me/Avatar.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://jardielvega.me/blog">
+    <meta name="twitter:title" content="Blog | Jardiel Vega - Artículos de Desarrollo y Tecnología">
+    <meta name="twitter:description" content="Blog especializado con artículos sobre desarrollo web, tecnologías frontend, IA y productividad para programadores. Tutoriales y análisis de tendencias.">
+    <meta name="twitter:image" content="https://jardielvega.me/Avatar.jpg">
+    
+    <!-- Favicon y recursos -->
+    <link rel="icon" href="Logo.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="Logo.ico">
+    <link rel="canonical" href="https://jardielvega.me/blog" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <link rel="alternate" type="application/rss+xml" title="Blog de Jardiel Vega RSS" href="https://jardielvega.me/rss.xml">
+    <link rel="author" type="text/plain" href="/humans.txt">
+    
+    <!-- Rendimiento y SEO técnico -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    <link rel="preload" href="blog.css" as="style">
+    
+    <!-- Metadatos adicionales -->
+    <meta name="language" content="es" />
+    <meta name="author" content="Jardiel Vega">
+    <meta name="theme-color" content="#121212">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Font Awesome (para iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Hojas de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="style-fix.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JS0ELGT0V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6JS0ELGT0V');
+    </script>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "headline": "Blog de Jardiel Vega - Explorando el Mundo Tecnológico",
+        "description": "Blog especializado sobre desarrollo web, tecnologías frontend, IA y productividad para programadores y profesionales tech",
+        "url": "https://jardielvega.me/blog",
+        "inLanguage": "es",
+        "datePublished": "2025-08-01",
+        "dateModified": "2025-09-11",
+        "author": {
+            "@type": "Person",
+            "name": "Jardiel Vega",
+            "url": "https://jardielvega.me",
+            "jobTitle": "Desarrollador Frontend",
+            "sameAs": [
+                "https://github.com/JardielVega",
+                "https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330",
+                "https://www.instagram.com/jardiel_vd"
+            ]
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Jardiel Vega",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://jardielvega.me/Avatar.jpg",
+                "width": "200",
+                "height": "200"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://jardielvega.me/blog"
+        },
+        "blogPost": [
+            {
+                "@type": "BlogPosting",
+                "headline": "ChatGPT-5",
+                "description": "Conoce las novedades de ChatGPT-5, el futuro de la inteligencia artificial conversacional.",
+                "url": "https://jardielvega.me/articuloGPT5.html",
+                "datePublished": "2025-08-09",
+                "author": {
+                    "@type": "Person",
+                    "name": "Jardiel Vega"
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "name": "Jardiel Vega"
+                }
+            },
+            {
+                "@type": "BlogPosting",
+                "headline": "Herramientas de productividad para programadores",
+                "description": "Descubre las mejores herramientas de productividad para programadores y creadores de contenido.",
+                "url": "https://jardielvega.me/articuloProductividad.html",
+                "datePublished": "2025-08-07",
+                "author": {
+                    "@type": "Person",
+                    "name": "Jardiel Vega"
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "name": "Jardiel Vega"
+                }
+            }
+        ]}
+    }
+    </script>
+</head>
+<body>
+    <!-- ====== HEADER & NAVEGACIÓN ====== -->
+    <header id="header" class="header fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container position-relative">
+                <a class="navbar-brand" href="index.html" aria-label="Inicio">
+                    <span class="logo-text" data-i18n="logo-text"><span class="logo-symbol">&lt;/&gt;</span> Jardiel Vega</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#home" data-i18n="nav-home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about" data-i18n="nav-about">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#skills" data-i18n="nav-skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projects" data-i18n="nav-projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#experience" data-i18n="nav-experience">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact" data-i18n="nav-contact">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link blog-link active" href="blog.html" data-i18n="nav-blog">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="language-selector">
+                        <button id="language-toggle" class="lang-btn" aria-label="Cambiar idioma">
+                            <span class="active" data-i18n="lang-es">ES</span> | <span data-i18n="lang-en">EN</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ====== BLOG HERO ====== -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-hero-content text-center" data-aos="fade-up">
+                <h1 class="blog-hero-title" data-i18n="blog-title">Blog<span class="dot">.</span></h1>
+                <h2 class="blog-hero-subtitle" data-i18n="blog-subtitle">Ideas, tutoriales y reflexiones sobre tecnología y desarrollo web</h2>
+                <p class="blog-hero-description" data-i18n="blog-description">
+                    Comparto mis conocimientos, experiencias y reflexiones sobre tecnología 
+                    y buenas prácticas de programación. Un espacio para 
+                    aprender y crecer juntos en el mundo del desarrollo.
+                </p>
+                <a href="index.html" class="btn btn-outline mt-4">
+                    <i class="fas fa-arrow-left me-2"></i><span data-i18n="back-to-portfolio">Volver al Portafolio</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-shape-1"></div>
+        <div class="hero-shape-2"></div>
+    </section>
+
+    <!-- ====== BLOG CONTENT ====== -->
+    <section class="blog-content section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">01.</span>
+                <h2 class="section-title" data-i18n="recent-articles">Artículos recientes</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="row">
+                <!-- Artículos -->
+                <div class="col-lg-8">
+                    <div class="row">
+                        <!-- Artículo 1 -->
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                            <article class="blog-card">
+                                <div class="blog-card-image">
+                                    <img src="https://images.pexels.com/photos/8386423/pexels-photo-8386423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                                        alt="ChatGPT-5" class="img-fluid" loading="lazy">
+                                    <div class="blog-card-category">
+                                        <i class="fas fa-robot"></i> <span data-i18n="category-ai">IA</span>
+                                    </div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <div class="blog-card-meta">
+                                        <span><i class="fas fa-calendar"></i> <span data-i18n="date-aug-9">9 Agosto, 2025</span></span>
+                                        <span><i class="fas fa-clock"></i> <span data-i18n="read-time-8">8 min</span></span>
+                                    </div>
+                                    <h3 class="blog-card-title" data-i18n="ai-article-title">ChatGPT-5</h3>
+                                    <p class="blog-card-excerpt" data-i18n="ai-article-excerpt">
+                                        Conoce las novedades de ChatGPT-5, el futuro de la inteligencia artificial conversacional. Un análisis de su moderna API e impacto en los usuarios.
+                                    </p>
+                                    <a href="articuloGPT5.html" class="blog-card-link">
+                                        <span data-i18n="read-article">Leer artículo</span> <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Artículo 2 -->
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <article class="blog-card">
+                                <div class="blog-card-image">
+                                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                        alt="Productividad" class="img-fluid" loading="lazy">
+                                    <div class="blog-card-category">
+                                        <i class="fas fa-rocket"></i> <span data-i18n="category-productivity">Productividad</span>
+                                    </div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <div class="blog-card-meta">
+                                        <span><i class="fas fa-calendar"></i> <span data-i18n="date-aug-7">7 Agosto, 2025</span></span>
+                                        <span><i class="fas fa-clock"></i> <span data-i18n="read-time-6">6 min</span></span>
+                                    </div>
+                                    <h3 class="blog-card-title" data-i18n="productivity-article-title">Herramientas de productividad para programadores</h3>
+                                    <p class="blog-card-excerpt" data-i18n="productivity-article-excerpt">
+                                        Descubre las mejores herramientas de productividad para programadores y creadores de contenido.
+                                    </p>
+                                    <a href="articuloProductividad.html" class="blog-card-link">
+                                        <span data-i18n="read-article">Leer artículo</span> <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Puedes añadir más artículos aquí -->
+                    </div>
+
+                    <!-- Paginación - Comentada pero disponible para futuro uso -->
+                    <!--
+                    <div class="pagination-container" data-aos="fade-up">
+                        <ul class="pagination">
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="https://www.linkedin.com/in/"><i class="fas fa-angle-right"></i></a></li>
+                        </ul>
+                    </div>
+                    -->
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300">
+                    <aside class="blog-sidebar">
+                        <!-- Artículos populares -->
+                        <div class="sidebar-widget">
+                            <h3 class="widget-title"><i class="fas fa-fire me-2"></i><span data-i18n="popular-articles">Artículos Populares</span></h3>
+                            
+                            <div class="popular-post">
+                                <div class="popular-post-img">
+                                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
+                                        alt="JavaScript moderno" loading="lazy">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="articuloGPT5.html" data-i18n="ai-article-title">ChatGPT-5</a></h4>
+                                    <span><i class="fas fa-calendar"></i> <span data-i18n="date-aug-9">9 Agosto, 2025</span></span>
+                                </div>
+                            </div>
+                            
+                            <div class="popular-post">
+                                <div class="popular-post-img">
+                                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
+                                        alt="Diseño responsive" loading="lazy">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="articuloProductividad.html" data-i18n="productivity-article-title">Herramientas de productividad</a></h4>
+                                    <span><i class="fas fa-calendar"></i> <span data-i18n="date-aug-7">7 Agosto, 2025</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== NEWSLETTER ====== -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box" data-aos="fade-up">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h3 data-i18n="newsletter-title">Suscríbete a mi Newsletter</h3>
+                        <p data-i18n="newsletter-description">Recibe artículos, tutoriales y recursos directamente en tu email.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form id="subscription-form" class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" data-i18n-placeholder="newsletter-placeholder" placeholder="Tu dirección de email" aria-label="Email address" required>
+                                <button class="btn btn-primary" type="submit" data-i18n="newsletter-button">Suscribir</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://github.com/JardielVega" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jardiel-alejandro-vega-dom%C3%ADnguez-b70097330" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/jardiel_vd" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:jardielvega7@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a>
+                </div>
+                
+                <p class="copyright">
+                    &copy; 2025 Jardiel Vega. <span data-i18n="copyright">Todos los derechos reservados.</span>
+                </p>
+                <div class="scroll-to-top">
+                    <a href="#header" aria-label="Volver arriba"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- AOS - Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Archivo de traducciones -->
+    <script src="translations.js"></script>
+    
+    <!-- Script para manejo de idiomas -->
+    <script src="language.js"></script>
+    
+    <!-- Scripts personalizados -->
+    <script src="script.js"></script>
+</body>
+</html>

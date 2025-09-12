@@ -1,0 +1,25 @@
+/* Fix para que el enlace Blog siempre sea blanco */
+.nav-link.blog-link.active {
+    color: var(--lightest-slate) !important; /* Color blanco con !important para asegurar que se aplique */
+}
+
+/* Al hacer hover, todavía debería cambiar al color primario */
+.nav-link.blog-link.active:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Asegurar que el logo siempre muestre el icono </> correctamente */
+.logo-text {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    visibility: visible !important;
+    color: var(--primary-color) !important; 
+    font-family: var(--font-mono) !important;
+    font-weight: 700 !important;
+}
+
+/* Estilo específico para el símbolo </> del logo */
+.logo-symbol {
+    color: var(--primary-color) !important;
+    font-weight: bold !important;
+}
