@@ -3,7 +3,7 @@
   <!-- Página principal -->
   <url>
     <loc>https://jardielvega.me/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -30,4 +30,5 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+
 </urlset>
